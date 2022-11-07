@@ -27,5 +27,4 @@ func main() {
 	fmt.Println(pointer_a)
 	fmt.Println(&pointer_a)
 	fmt.Println(*pointer_a)
-
 }
