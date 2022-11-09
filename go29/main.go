@@ -40,4 +40,7 @@ func main() {
 	i3, isFloat64 := x.(float64)
 	fmt.Println(isFloat64)
 	fmt.Println(i3)
+
+	x = "i love go."
+	fmt.Println(x)
 }
