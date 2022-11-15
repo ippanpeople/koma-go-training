@@ -14,9 +14,24 @@ func TestAdd(t *testing.T) {
 	}{
 		// TODO: Add test cases.
 		{
-			name: "正常處理",
+			name: "正常處理1",
 			args: args{x: 10, y: 20},
 			want: 30,
+		},
+		{
+			name: "正常處理2",
+			args: args{x: 100, y: 200},
+			want: 300,
+		},
+		{
+			name: "正常處理3",
+			args: args{x: 1000, y: 2000},
+			want: 3000,
+		},
+		{
+			name: "錯誤處理",
+			args: args{x: 1000, y: 2000},
+			want: 300,
 		},
 	}
 	for _, tt := range tests {
