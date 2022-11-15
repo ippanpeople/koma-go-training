@@ -1,0 +1,11 @@
+// 手動編寫測試代碼
+package utils
+
+import "testing"
+
+func TestAdd1(t *testing.T) {
+	val := Add(10, 20)
+	if val != 30 {
+		t.Error("計算錯誤", val)
+	}
+}
